@@ -1,0 +1,71 @@
+:root {
+  background-color: #c3ebd1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Header */
+.header {
+  background-color: rgb(212, 145, 134);
+  display: flex;
+  align-items: center;
+}
+
+.header__logo__img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Navbar */
+.nav__list {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+/* Main */
+
+/* Home */
+#home {
+  background-color: #c3ebd1;
+  align-items: center;
+}
+
+.home__section {
+  text-align: center;
+}
+
+.home__pic {
+  width: 500px;
+  height: 500px;
+}
+
+/* About */
+#about {
+  background-color: #ffffff;
+}
+
+/* Skills */
+#skills {
+  background-color: #c3ebd1;
+}
+
+/* Projects */
+#projects {
+  background-color: #ffffff;
+}
+
+/* Contact */
+#contact {
+  background-color: #c3ebd1;
+}
+
+/* Footer */
+#footer {
+  background-color: rgb(112, 112, 112);
+}

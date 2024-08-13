@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <title>Home</title>
   </head>
   <body>
-    <!-- header -->
-    <header>
-      <!-- navbar -->
+    <!-- Header -->
+    <header class="header">
+      <div>
+        <img class="header__logo__img" src="./img/favicon.ico" alt="logo" />
+      </div>
+      <!-- Navbar -->
       <nav>
-        <ul>
+        <ul class="nav__list">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -20,20 +24,53 @@
         </ul>
       </nav>
     </header>
-    <!-- main -->
+    <!-- Main -->
     <main>
       <!-- Home -->
-      <section id="home"></section>
+      <section id="home">
+        <div class="home__section">
+          <p>K's Homepage</p>
+          <img class="home__pic" src="/img/sky.jpg" alt="" />
+        </div>
+      </section>
       <!-- About -->
-      <section id="about"></section>
+      <section id="about">
+        <p>저는 이런 사람 입니다.</p>
+        <li>2020~2020 교육과정 수료</li>
+        <li>2020~2020 교육과정 수료</li>
+        <li>2020~2020 OO회사 인턴</li>
+        <li>2020~2020 동아리 활동</li>
+      </section>
       <!-- Skills -->
-      <section id="skills"></section>
+      <section id="skills">
+        <p>개발 스킬</p>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Express.js</li>
+        <li>Node.js</li>
+        <li>MySQL</li>
+      </section>
       <!-- Projects -->
-      <section id="projects"></section>
+      <section id="projects">
+        <p>프로젝트 목록</p>
+        <li>프로젝트1</li>
+        <li>프로젝트2</li>
+        <li>프로젝트3</li>
+        <li>프로젝트4</li>
+        <li>프로젝트5</li>
+      </section>
       <!-- Contact -->
-      <section id="contact"></section>
+      <section id="contact">
+        <p>Contact</p>
+        <li>email</li>
+        <li>phone</li>
+        <li>github</li>
+        <li>sns</li>
+      </section>
     </main>
     <!-- Footer -->
-    <footer>copyrightⓒK-bokyung</footer>
+    <footer id="footer">copyrightⓒK-bokyung</footer>
   </body>
 </html>
