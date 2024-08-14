@@ -54,21 +54,19 @@ body {
 /* Main */
 
 /* Home */
-#home {
+.home__section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #c3ebd1;
-}
-
-.home__section {
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .home__section__pic {
-  width: 300px;
-  height: 300px;
-  margin: 40px;
+  width: 20rem;
+  height: 20rem;
+  margin: 5rem;
   border-radius: 50%;
 }
 
@@ -77,22 +75,61 @@ body {
 }
 
 /* About */
-#about {
+
+.about__section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.about__section__title {
+}
+
+.about__section__table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  gap: 2rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 /* Skills */
 #skills {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #c3ebd1;
 }
 
 /* Projects */
 #projects {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
 }
 
 /* Contact */
 #contact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #c3ebd1;
 }
 
