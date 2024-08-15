@@ -10,6 +10,26 @@ body {
   margin: 0px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+caption {
+  caption-side: top;
+  text-align: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
 /* Header */
 .header {
   position: fixed;
@@ -57,20 +77,22 @@ body {
 .home__section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #c3ebd1;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   width: 100%;
+  background-color: #c3ebd1;
 }
 
-.home__section__pic {
+.home__pic {
   width: 20rem;
   height: 20rem;
   margin: 5rem;
   border-radius: 50%;
 }
 
-.home__section__welcome {
+.home__title {
   margin-top: 0px;
 }
 
@@ -78,27 +100,22 @@ body {
 
 .about__section {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.about__title {
   text-align: center;
   width: 100%;
 }
 
-.about__section__title {
-}
-
-.about__section__table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  gap: 2rem;
+.about__table {
+  width: 60rem;
+  margin-top: 2rem;
 }
 
 td,
@@ -113,27 +130,27 @@ tr:nth-child(even) {
 }
 
 /* Skills */
-#skills {
+.skills__section {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #c3ebd1;
 }
 
 /* Projects */
-#projects {
+.projects__section {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #ffffff;
 }
 
 /* Contact */
-#contact {
+.contact__section {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #c3ebd1;
 }
 
 /* Footer */
-#footer {
+.footer__section {
   background-color: rgb(112, 112, 112);
 }
